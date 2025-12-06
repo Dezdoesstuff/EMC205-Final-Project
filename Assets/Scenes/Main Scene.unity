@@ -163,15 +163,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e4ae84b716a77a42858f3a46beea859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 42234338155919771, guid: 13be0d70f1cb8264c92925bd9e14d63d, type: 3}
+  enemyPrefab: {fileID: 2172131575834821984, guid: 13be0d70f1cb8264c92925bd9e14d63d, type: 3}
   startingEnemies: 3
   enemyIncreasePerWave: 2
+  timeBetweenWaves: 5
   spawnPoints:
   - {fileID: 614268914}
   - {fileID: 1802246650}
   - {fileID: 1598898118}
   - {fileID: 135657726}
-  timeBetweenWaves: 5
 --- !u!1 &135657725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,17 +1138,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08acaed91e7ebe8458fef0435c6bd6d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UIPauseScreen: {fileID: 1524327299}
-  QuitButton: {fileID: 1591282110}
-  UIHUD: {fileID: 1330672372}
-  crosshairUI: {fileID: 1348493474}
-  UIEndScreen: {fileID: 684688638}
-  endMessageText: {fileID: 2094231856}
-  endFadeDuration: 1
   UIWavePopup: {fileID: 160638545}
   wavePopupText: {fileID: 160638547}
   wavePopupDuration: 2
   waveFadeDuration: 0.5
+  crosshairUI: {fileID: 1348493474}
+  UIEndScreen: {fileID: 684688638}
+  endMessageText: {fileID: 2094231856}
+  endFadeDuration: 1
+  UIPauseScreen: {fileID: 1524327299}
+  QuitButton: {fileID: 1591282110}
+  UIHUD: {fileID: 1330672372}
 --- !u!1 &500849841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2457,11 +2457,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4fc219bf1c9dd499aa9d9a73801ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthText: {fileID: 906923646}
   maxHealth: 100
   currentHealth: 0
   UIDamageScreen: {fileID: 0}
   damageFadeDuration: 0.5
-  healthText: {fileID: 906923646}
 --- !u!1 &989306305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,7 +2959,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 7f5f962d5683d0648b02fc9509e0cd7e, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6a48e8c608c203a4ea26697dfcd0d9bc, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &1172041970
 GameObject:
@@ -3596,9 +3596,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 684688639}
-  - {fileID: 1524327300}
   - {fileID: 1330672373}
+  - {fileID: 1524327300}
+  - {fileID: 684688639}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4271,11 +4271,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4fc219bf1c9dd499aa9d9a73801ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthText: {fileID: 906923646}
   maxHealth: 100
   currentHealth: 0
   UIDamageScreen: {fileID: 328098866}
   damageFadeDuration: 0.5
-  healthText: {fileID: 906923646}
 --- !u!1001 &1907143823
 PrefabInstance:
   m_ObjectHideFlags: 0
